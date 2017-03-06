@@ -7,8 +7,8 @@
     <title>端会员landing page</title>
     <link href="styles/style.css" rel="stylesheet">
   </head>
-  <body> 	 
-    <header>     
+  <body>
+    <header>
       <div class="header">
         <img class="logo" src="img/logo.png" alt="">
         <svg width="500" height="500" viewBox="0 0 500 200" class="ball1">
@@ -20,10 +20,10 @@
             </defs>
             <path id="motionPath" fill="none" stroke="none" stroke-miterlimit="10" d="M250,449.5 C139.819192,449.5 50.5,360.180808 50.5,250 C50.5,139.819192 139.819192,50.5 250,50.5 C360.180808,50.5 449.5,139.819192 449.5,250 C449.5,360.180808 360.180808,449.5 250,449.5 Z"/>
             <circle id="motionPath" fill="none" stroke="none" cx="250" cy="250" r="200"></circle>
-    
+
             <circle id="circle" r="25" cx="0" cy="0" fill="url(#linear-gradient)" />
-     
-            <animateMotion 
+
+            <animateMotion
                      xlink:href="#circle"
                      dur="10s"
                      begin="0s"
@@ -41,17 +41,17 @@
             </defs>
             <path id="motionPath2" fill="none" stroke="none" stroke-miterlimit="10" d="M250,449.5 C139.819192,449.5 50.5,360.180808 50.5,250 C50.5,139.819192 139.819192,50.5 250,50.5 C360.180808,50.5 449.5,139.819192 449.5,250 C449.5,360.180808 360.180808,449.5 250,449.5 Z"/>
             <circle id="motionPath2" fill="none" stroke="none" cx="250" cy="250" r="200"></circle>
-    
+
             <circle id="circle2" r="28" cx="0" cy="0" fill="url(#linear-gradient2)" />
-     
-            <animateMotion 
+
+            <animateMotion
                      xlink:href="#circle2"
                      dur="15s"
                      begin="0s"
                      fill="freeze"
                      repeatCount="indefinite"
-                     keyPoints="1;0" 
-                     keyTimes="0;1" 
+                     keyPoints="1;0"
+                     keyTimes="0;1"
                      calcMode="linear"
                      >
 
@@ -67,10 +67,10 @@
             </defs>
             <path id="motionPath3" fill="none" stroke="none" stroke-miterlimit="10" d="M250,449.5 C139.819192,449.5 50.5,360.180808 50.5,250 C50.5,139.819192 139.819192,50.5 250,50.5 C360.180808,50.5 449.5,139.819192 449.5,250 C449.5,360.180808 360.180808,449.5 250,449.5 Z"/>
             <circle id="motionPath3" fill="none" stroke="none" cx="250" cy="250" r="200"></circle>
-    
+
             <circle id="circle3" r="15" cx="0" cy="0" fill="url(#linear-gradient3)" />
-     
-            <animateMotion 
+
+            <animateMotion
                      xlink:href="#circle3"
                      dur="20s"
                      begin="0s"
@@ -87,7 +87,7 @@
           漩渦自有節奏，它裹挾人、改變人。
         </p>
         <p>
-          漩渦嘈雜喧鬧，它縈繞人、困惑人。  
+          漩渦嘈雜喧鬧，它縈繞人、困惑人。
         </p>
         <p>
           充滿不確定性的時代，如漩渦般席捲而來。但總有那麼一些人，仍試圖在這樣的時代里追求獨立和理性的思考、清醒而明智的判斷，他們願意起身觀察外部世界的模樣，也努力推動生活現實里的點滴改變，他們堅守內心的準則和信念，也樂於傾聽不同的聲音和觀點。
@@ -101,8 +101,8 @@
       </div>
       <hr>
       <img src="img/logo_b.png" class="logob">
-      <div class="plansrow">      	
-        <div class="plan"> 
+      <div class="plansrow">
+        <div class="plan">
           <div class="illustration"><img src="img/illus1.png" alt=""></div>
             <ul class="description">
               <li>端傳媒×獨立書店「知識人文聯盟」<a class="giftlink" href="index.html#q4">Super Pass＊</a></li>
@@ -112,26 +112,182 @@
         </div>
         <div class="plan">
           <div class="illustration"><img src="img/illus2.png" alt=""></div>
-          
+
             <ul class="description">
-                <li style="margin-left: 20px;">端Mall購物9折優惠</li>            
+                <li style="margin-left: 20px;">端Mall購物9折優惠</li>
               </ul>
-                
+
         </div>
         <div class="plan">
           <div class="illustration"><img src="img/illus3.png" alt=""></div>
-          
+
             <ul class="description">
                 <li>會員實體禮包（會員卡、會員背包及其他）</li>
                 <li><a class="giftlink" href="index.html#q1">更多福利</a></li>
               </ul>
-               
+
         </div>
       </div>
       <div class="row">
-      	<a class="subscribe" href="payment.html">
-          成為會員
-        </a>
+
+        <div id='product-component-498ea6bfab9' style="margin: 0 auto;"></div>
+        <script type="text/javascript">
+        /*<![CDATA[*/
+
+        (function () {
+          var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+          if (window.ShopifyBuy) {
+            if (window.ShopifyBuy.UI) {
+              ShopifyBuyInit();
+            } else {
+              loadScript();
+            }
+          } else {
+            loadScript();
+          }
+
+          function loadScript() {
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = scriptURL;
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+            script.onload = ShopifyBuyInit;
+          }
+
+          function ShopifyBuyInit() {
+            var client = ShopifyBuy.buildClient({
+              domain: 'xn-gmqs35bd8s7xa.myshopify.com',
+              apiKey: '06ecb5813988e1521923eb5b9dc8bfac',
+              appId: '6',
+            });
+
+            ShopifyBuy.UI.onReady(client).then(function (ui) {
+              ui.createComponent('product', {
+                id: [7494229313],
+                node: document.getElementById('product-component-498ea6bfab9'),
+                moneyFormat: '%24%7B%7Bamount%7D%7D',
+                options: {
+          "product": {
+            "buttonDestination": "checkout",
+            "variantId": "all",
+            "width": "240px",
+            "contents": {
+              "img": false,
+              "imgWithCarousel": false,
+              "title": false,
+              "variantTitle": false,
+              "price": false,
+              "description": false,
+              "buttonWithQuantity": false,
+              "quantity": false
+            },
+            "text": {
+              "button": "成為會員"
+            },
+            "styles": {
+              "product": {
+                "@media (min-width: 601px)": {
+                  "max-width": "calc(25% - 20px)",
+                  "margin-left": "20px",
+                  "margin-bottom": "50px"
+                }
+              },
+              "button": {
+                "background-color": "#2bb6c9",
+                "padding-left": "30px",
+                "padding-right": "30px",
+                ":hover": {
+                  "background-color": "#27a4b5"
+                },
+                "border-radius": "0px",
+                ":focus": {
+                  "background-color": "#27a4b5"
+                }
+              }
+            }
+          },
+          "cart": {
+            "contents": {
+              "button": true
+            },
+            "styles": {
+              "button": {
+                "background-color": "#2bb6c9",
+                ":hover": {
+                  "background-color": "#27a4b5"
+                },
+                "border-radius": "0px",
+                ":focus": {
+                  "background-color": "#27a4b5"
+                }
+              },
+              "footer": {
+                "background-color": "#ffffff"
+              }
+            }
+          },
+          "modalProduct": {
+            "contents": {
+              "img": false,
+              "imgWithCarousel": true,
+              "variantTitle": false,
+              "buttonWithQuantity": true,
+              "button": false,
+              "quantity": false
+            },
+            "styles": {
+              "product": {
+                "@media (min-width: 601px)": {
+                  "max-width": "100%",
+                  "margin-left": "0px",
+                  "margin-bottom": "0px"
+                }
+              },
+              "button": {
+                "background-color": "#2bb6c9",
+                "padding-left": "30px",
+                "padding-right": "30px",
+                ":hover": {
+                  "background-color": "#27a4b5"
+                },
+                "border-radius": "0px",
+                ":focus": {
+                  "background-color": "#27a4b5"
+                }
+              }
+            }
+          },
+          "toggle": {
+            "styles": {
+              "toggle": {
+                "background-color": "#2bb6c9",
+                ":hover": {
+                  "background-color": "#27a4b5"
+                },
+                ":focus": {
+                  "background-color": "#27a4b5"
+                }
+              }
+            }
+          },
+          "productSet": {
+            "styles": {
+              "products": {
+                "@media (min-width: 601px)": {
+                  "margin-left": "-20px"
+                }
+              }
+            }
+          }
+        }
+              });
+            });
+          }
+        })();
+        /*]]>*/
+        </script>
+
+
         <p class="price">299HKD/年</p>
       </div>
     </div>
