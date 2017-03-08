@@ -212,7 +212,7 @@ a.subscribe:focus {
 
 @media screen and (max-width: 620px){
   h1{
-    margin-bottom: 80px;
+    margin-bottom: 20px;
   }
   .header{
     height: 220px
