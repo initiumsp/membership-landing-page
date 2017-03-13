@@ -98,6 +98,23 @@
       </div>
     </header>
     <div class="content">
+      <div id="bsmodal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h1>“端传媒✖️独立书店”清单 | 端会员专属优惠</h1>
+          <hr>
+          <h3>1.kubrick bc（油麻地店 Yau Ma Tei）</h3>
+          <img src="img/kubrick.jpg">
+          <p>kubrick二零零一年在香港百老汇电影中心毗邻开业，名字借用电影大师Stanley Kubrick。为满足一旁电影院观众的需要，提供相应的文化食品如书籍、影碟、唱片等，致力提供更好的艺术创作平台，推动文化创作。如今香港的kubrick已经发展成为多元化的文化聚散地，以出版图书、表演艺术、阅读分享会、合作学堂、艺术展览等项目，与不同创作者和文化爱好者一起展示本土丰盛的艺术创作和生活文化。</p>
+          <p>地址：油麻地众坊街3号骏发花园 H2地舖（港铁油麻地站 C 出口, 步行约5分钟</p>
+          <p>电话号码：2384 8929</p>
+          <p>营业时间：</p>
+          <p>— 书店 bookstore：11:30 - 22:00</p>
+          <p>— 咖啡店 cafe：11:30 - 21:30</p>
+          <p>— 影碟店 discs store：星期一至五，14:00 to 22:00；星期六日及，12:00 to 22:00</p>
+          <h4>端传媒会员优惠：凭“端传媒”会员身份可以BC会员价选购纸本书一本，并凭当天收据免费获赠港币40元以下咖啡一杯</h4>
+        </div>
+      </div>
       <div class="intro">
         <p>
           端一直希望記錄時代的漩渦。
@@ -127,7 +144,7 @@
         <div class="plan">
           <div class="illustration"><img src="img/illus1.png" alt=""></div>
             <ul class="description">
-              <li>端傳媒×獨立書店 <a class="giftlink" href="https://theinitium.com/article/membership-bookstore-list/" target="_blank">Super Pass</a></li>
+              <li>端傳媒×獨立書店 <a class="giftlink" id="bsbtn">Super Pass</a></li>
               <li>優先或免費參加端傳媒舉辦的各類沙龍、論壇、放映會等或會員專屬線下活動</li>
               <li>加入會員專屬社群，跟端傳媒的編輯或作者交流互動</li>
             </ul>
@@ -403,6 +420,22 @@
     </div>
   </body>
   <script>
+  //modal
+  var modal = document.getElementById('bsmodal');
+  var btn = document.getElementById('bsbtn');
+  var span = document.getElementsByClassName("close")[0];
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  span.onclick = function(){
+    modal.style.display = "none";
+  }
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  //traffic
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
