@@ -110,9 +110,36 @@ hr{
   padding: 10px 20px;
   background: #2bb6c9 url("../img/bg3.png") no-repeat top center;
   background-size: cover;
-  height: 600px;
+  height: 100vh;
   position: relative;
   top: 0px;
+  background-size: cover;
+}
+.mask {
+  padding: 0 20%;
+  width: 100%;
+  height: 40vh;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(rgba(27,27,46,0.2), rgba(27,27,46,1));
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  box-sizing: border-box;
+  text-align: right;
+}
+.note {
+  font-size: 0.8em;
+  width: 60%;
+  margin: 10px auto;
+}
+.bold {
+  font-weight: 800;
+  font-size: 1.2em;
+}
+.column {
+  margin-left: 50px;
 }
 .midtitle{
   text-align: center;
@@ -219,10 +246,10 @@ hr{
   height: 50px;
   padding: 11px;
   box-sizing: border-box;
-  border: 1.5px solid #2bb6c9;
+  border: 1.5px solid white;
   margin: 10px auto 20px auto;
-  background-color: #fff;
-  color: #2bb6c9;
+  background-color: rgba(43,182,201,0.3);
+  color: white;
   font: 1.1em Arial, sans-serif;
   text-align: center;
   text-decoration: none;
@@ -322,7 +349,28 @@ a.subscribe:focus {
     margin-bottom: 20px;
   }
   .header{
-    height: 220px
+    height: 60vh;
+    background-position: 34% 50%;
+    background-size: cover;
+  }
+  .mask {
+    position: relative;
+    height: 40vh;
+    background-color: rgb(27,27,46);
+    padding: 0 20px;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .mask p {
+    font-size: 0.9em;
+  }
+  .column {
+    margin: 0;
+  }
+  .subscribe {
+    font-size: 0.9em;
+    width: auto;
+    height: auto;
   }
   .logo{
     width:35px;
@@ -424,7 +472,12 @@ a.subscribe:focus {
   }
   .qatitle{
   font: 1.5em Arial, sans-serif;
-}
+  }
+  .note {
+    width: 100%;
+    padding: 0 40px;
+    margin: 10px auto;
+  }
 }
 @media screen (min-width: 601px) and (max-width: 1200px){
   .testimonial{
