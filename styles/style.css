@@ -477,6 +477,7 @@ a.subscribe:focus {
     width: 100%;
     padding: 0 40px;
     margin: 10px auto;
+    box-sizing: border-box;
   }
 }
 @media screen (min-width: 601px) and (max-width: 1200px){
