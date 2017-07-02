@@ -210,9 +210,10 @@ hr{
 }
 .illustration {
 	display: block; 
-	width: 70%; 
+	/*width: 70%; */
 	height: auto; 
-	margin: 20px auto; 
+  width: 100%;
+	/*margin: 20px auto; */
 }
 .description{
   line-height: 2em;
