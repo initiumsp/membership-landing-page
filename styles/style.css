@@ -133,6 +133,12 @@ hr{
 .bold {
   font-weight: 800;
   font-size: 1.2em;
+  /*color: #007B88;
+  background-color: rgba(255,255,255,0.8);*/
+  padding: 0.3em 0;
+  padding-right: 0.4em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid white;
 }
 .column {
   margin-left: 50px;
@@ -243,17 +249,32 @@ hr{
   height: 50px;
   padding: 11px;
   box-sizing: border-box;
-  border: 1.5px solid white;
+  border: 1px solid white;
   margin: 10px auto 20px auto;
   background-color: rgba(43,182,201,0.3);
   color: white;
-  font: 1.1em Arial, sans-serif;
+  font: 1em Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   -webkit-transition: .5s ease;
   -moz-transition: .5s ease ;
   -o-transition: .5s ease;
   transition: .5s ease ;
+}
+.subscribe.dark {
+  background-color: transparent;
+  border: 1.5px solid rgb(43,182,201);
+  color: rgb(43,182,201);
+}
+.yearly {
+  margin-left: 20px;
+}
+.column-container .subscribe {
+  width: 90px;
+}
+.column-container {
+  display: flex;
+  margin-top: -1em;
 }
 a.subscribe:hover,
 a.subscribe:focus {
@@ -368,6 +389,15 @@ a.subscribe:focus {
     font-size: 0.9em;
     width: auto;
     height: auto;
+  }
+  .column-container .subscribe {
+    width: auto;
+  }
+  .yearly {
+    margin-left: 6px;
+  }
+  .column-container {
+    margin-top: -0.8em;
   }
   .logo{
     width:35px;

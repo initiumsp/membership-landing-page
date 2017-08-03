@@ -99,18 +99,26 @@
       <div class="mask">
         <div class="basic column">
           <p class="bold">暢讀會員</p>
-          <p>HK$ 498 一年</p>
-          <p>眾籌特惠：HK$ 385</p>
-          <a class="subscribe" href="https://theinitium.com/subscription/offers/" target="_blank">加入會員</a>
+          <div class="column-container">
+            <div class="monthly">
+              <p>HK$ 49/月</p>
+              <a class="subscribe" href="https://theinitium.com/subscription/checkout/basic_monthly" target="_blank">加入會員</a>
+            </div>
+            <div class="yearly">
+              <p>HK$ 498/年</p>
+              <a class="subscribe" href="https://theinitium.com/subscription/checkout/basic_yearly_original" target="_blank">加入會員</a>
+            </div>
+          </div>
         </div>
         <div class="premier column">
           <p class="bold">尊享會員</p>
-          <p>HK$ 998 一年</p>
-          <p>眾籌特惠：HK$ 900</p>
-          <a class="subscribe" href="https://theinitium.com/subscription/offers/" target="_blank">加入會員</a>
+          <div class="column-container-2">
+            <p>HK$ 998/年</p>
+            <a class="subscribe" href="https://theinitium.com/subscription/checkout/premium_yearly_original" target="_blank">加入會員</a>
+          </div>
         </div>
       </div>
-      <p class="note">注：眾籌特惠持續至 8 月 6 日，眾籌結束後恢復原價。</p>
+      <!-- <p class="note">注：眾籌特惠持續至 8 月 6 日，眾籌結束後恢復原價。</p> -->
     </header>
     <div class="content">
       <div id="bsmodal" class="modal">
@@ -185,12 +193,13 @@
       </div> -->
       <div class="intro">
         <br>
-        <p>為了聽音樂，你願意每月支出 50 港幣購買音樂 App 的套餐；為了收看影視劇集，你也會每月花費 500 港幣，買下電視台的高清基本組合。</p>
-        <p>買一本紙製書，大約需要 100 港幣；訂閱一份報紙加一本雜誌，每月你願意撥出 300 港幣的預算。但當你打算為新媒體內容付費埋單時，你猶豫了……</p>
-        <p>音樂有償、劇集有價，書報雜誌值得掏錢，新媒體內容呢？免費獲取成了習慣，習慣又漸漸成了常識。而在這常識背後，媒體被流量紅海與廣告利益宰制，記者緊盯點擊率，編輯憂心觸及率，而每個讀者都成為「大數據」背後可以被輕易壓榨的犧牲品。</p>
-        <p>我們，想要在內容成長、作者及讀者長期價值之間，找出新的平衡方程式。</p>
-        <p>你的參與，將會是方程式的唯一解。更坦誠地說，我們需要你付費支持端傳媒。</p>
-        <p>你的小額付費，是我們令優質內容自食其力的開端，更會是我們優質社群發力的開始。</p>
+        <p>2015 年 8 月 3 日，端傳媒上線，那時候特朗普、林鄭月娥、蔡英文尚未當選，英國依然是歐盟的成員，劉曉波還沒有離開我們。</p>
+        <p>兩年裏，我們和你們一起，見證了很多。從天津大爆炸、旺角騷亂到巴黎恐襲，我們奔赴現場；從台灣、香港到美國，我們緊密追蹤每場大選；從 709 律師、宣誓風波到反課綱、同婚平權，我們深入解析事件背後的結構困境。</p>
+        <p>也是這兩年，在你們的見證下，我們經歷了很多。一篇好新聞需要細膩的觀察和精準的分析，但讓一間新聞機構持續生產好新聞，這份事業需要想象力和創造力，也離不開每一位讀者的協力，「自由的道路漫長，我們一齊開端」。</p>
+        <p>成立兩週年，我們收穫過榮耀也經歷過挫敗。</p>
+        <p>以眾籌群募和付費閱讀為新的起點，我們重新出發。</p>
+        <p>你的小額付費，讓好內容得以自證價值，也讓我們共同的事業可以持續，在下一個兩年、十年和更長的時空中為社會創造更多價值。</p>
+        <p>你，要一起嗎？</p>
       </div>
       <hr>
       <div class="plansrow">
@@ -221,6 +230,7 @@
               </ul>
         </div>
       </div>
+      <a class="subscribe dark" href=" https://theinitium.com/subscription/offers/">加入會員</a>
       <!-- <div class="row">
         <a class="subscribe" href="https://theinitium.com/subscription/offers/" target="_blank">成為會員</a>
         <p class="price">現正眾籌</p>
@@ -265,62 +275,77 @@
     <div class="content">
     	<div class="qaunit">
     		<div class="question" id="q1">
-    			<p>除了 PayPal 和信用卡，是否可以用支付寶或微信支付？</p>
+    			<p>除了 PayPal 和信用卡，是否支持支付寶、微信支付？</p>
     		</div>
     		<div class="answer">
-    			<p>我們已經在端 Mall 放入會員產品，支持支付寶付款。暢讀會員請點擊這裏，尊享會員請點這裏。若循端 Mall 購買，會籍會成功支付後的 1-2 個工作日生效。抱歉，我們目前尚未開通微信支付。</p>
+    			<p>慣用支付寶的讀者，可以到跳轉到「端 Mall」上購買年付方案，請點擊「<a class="giftlink" target="_blank" href="https://init.shop/products/basic-vip">暢讀會員</a>」或「<a class="giftlink" target="_blank" href="https://init.shop/products/premium-vip">尊享會員</a>」跳轉至對應方案。循「端 Mall」購買，會籍會在成功支付後的 1-2 個工作日生效，請耐心等待。我們目前尚未開通微信支付。</p>
     		</div>
     		<div class="question" id="q2">
+    			<p>是否有線下的支付方式？</p>
+    		</div>
+    		<div class="answer">
+    			<p>身在香港的讀者，可選擇以匯款、支票的方式付費，亦可親臨我們的辦公室以現金購買。請將有效的支票、匯款單據，連同填妥的 <訂閱表格>（ 可聯繫 <a class="giftlink" href="mailto:membership@theinitium.com?Subject=Hello%20Initium" target="_top">membership@theinitium.com</a> 獲取），一併寄給我們即可，地址是：香港北角英皇道663號泓富產業千禧廣場1907室，端傳媒會員組收。</p>
+    		</div>
+    		<div class="question" id="q3">
     			<p>成功購買「端會員」後會發生什麼？</p>
     		</div>
     		<div class="answer">
-    			<ul>
-            <li>收到確認郵件</li>
-            <li>網站和 App 的個人中心頁面顯示會員身分（金色星標）</li>
-          </ul>
-    		</div>
-    		<div class="question" id="q3">
-    			<p>端傳媒×獨立書店 Super Pass 可以在哪些書店使用？</p>
-    		</div>
-    		<div class="answer">
-          <p>書店清單和優惠細則在<a class="giftlink" href="https://theinitium.com/article/membership-bookstore-list/">這裏</a>（不斷增長中……），若您是店家，歡迎來函與我們洽談合作事宜：membership@theinitium.com</p>
+          <p>在主站支付成功後，您的會籍會立即生效；在非主站渠道（含「端 Mall」）支付，會於 收到款項後的 1-2 個工作日內生效會籍；生效時，您會收到確認郵件，並且在「個人中心」頁面顯示會員身份（金色星標），登入狀態下可以暢讀全站內容。</p>
     		</div>
     		<div class="question" id="q4">
-    			<p>我該如何在合作店家或活動現場認證我的會員身份？</p>
+    			<p>可以自動續費嗎？</p>
     		</div>
     		<div class="answer">
-    			<p>出示電子會員身分識別，即網站和 App 的個人中心頁面中的金色星標</p>
+    			<p>循主站加入的會員，購買的同時會啓動自動續費，並在會籍到期後根據所參與的方案自動扣款，並延續會員。可以到網頁版的「個人中心 - 付費管理」中取消自動續費。非主站購買的會員，無法自動續費，需重新下單。</p>
     		</div>
         <div class="question" id="q5">
-          <p>我該怎麼加入「端尊享會員」社群？</p>
+          <p>若我已是會員，可否重新購買、或升級現有方案？</p>
         </div>
         <div class="answer">
-          <p>加入會員後，我們會聯絡你，邀請你加入我們的Facebook / WhatsApp 社群</p>
+          <p>可以。請留意，新方案會在生效的同時會覆蓋舊方案，舊方案的剩餘會籍會失效。即使是升級方案（如從月付到年付、從暢讀到尊享），舊方案也會失效且不設退款。</p>
         </div>
         <div class="question" id="q6">
+          <p>端傳媒×獨立書店 Super Pass 可以在哪些書店使用？</p>
+        </div>
+        <div class="answer">
+          <p>書店清單和優惠細則在<a class="giftlink" target="_blank" href="https://theinitium.com/article/membership-bookstore-list/">這裏</a>（不斷增長中……），若您是店家，歡迎來函與我們洽談合作事宜：membership@theinitium.com。</p>
+        </div>
+        <div class="question" id="q7">
+          <p>我該如何在合作店家或活動現場認證我的會員身份？</p>
+        </div>
+        <div class="answer">
+          <p>出示電子會員身份識別，即網站和 App 的個人中心頁面中的金色星標。</p>
+        </div>
+        <div class="question" id="q8">
+          <p>我是尊享會員，該怎麼加入「端尊享會員」社群？</p>
+        </div>
+        <div class="answer">
+          <p>加入會員後，我們會聯絡你，邀請你加入我們的 Facebook / WhatsApp 社群。</p>
+        </div>
+        <div class="question" id="q9">
           <p>在「端尊享會員」社群裏有什麼？</p>
         </div>
         <div class="answer">
           <p>可以在「端會員」社群裏發帖、跟其他會員交流，參與線上直播或互動。端傳媒的編輯、撰稿人們也將不定期進入社群，跟大家交流；</p>
-          <p>有任何建議、疑問，都可以在社群中留言，「迷你端」將一一回覆</p>
+          <p>有任何建議、疑問，都可以在社群中留言，我們會一一回覆。</p>
         </div>
-        <div class="question" id="q7">
+        <div class="question" id="q10">
           <p>如何獲得活動的優先報名資格？</p>
         </div>
         <div class="answer">
-          <p>當我們舉辦活動，會不定期通過郵件和社群向會員發送活動訊息和參與方式</p>
+          <p>當我們舉辦活動，會不定期通過郵件和社群向會員發送活動訊息和參與方式。</p>
         </div>
-        <div class="question" id="q8">
+        <div class="question" id="q11">
           <p>我住在大陸或海外，該如何參加尊享會員的社群活動呢？</p>
         </div>
         <div class="answer">
-          <p>我們的辦公室設在香港、台灣，所以目前舉辦的線下活動或聚會，會以兩地為主。但我們會盡力為活動安排視頻直播，並且歡迎全球各地的會員通過網路連入，一齊參與。</p>
+          <p>我們的辦公室設在香港、台灣，所以目前舉辦的線下活動或聚會，會以兩地為主。但我們會盡力為活動安排視頻直播，並且歡迎全球各地的會員通過網路連入，一起參與。</p>
         </div>
         <div class="question" id="q12">
           <p>會員項目會持續多久？</p>
         </div>
         <div class="answer">
-          <p>如無重大變故，我們的會員項目將一直持續。當本項目因故無法進行時，本公司保有修改、變更或暫停本項目的權利。如有未盡事宜，悉依本公司相關規定或解釋辦理，並得隨時補充公告之。</p>
+          <p>如無重大變故，我們的會員項目將一直持續。當本項目因故無法進行時，本公司保有修改、變更或暫停本項目的權利。如有未盡事宜，悉依本公司相關規定或解釋辦理，並得隨時補充公告之。詳盡的「服務協議」和「付費會員銷售條款」請點擊<a target="_blank" class="giftlink" href="https://theinitium.com/misc/agreement/">這裏</a>。</p>
         </div>
         <div class="question" id="q13">
           <p>還有問題？</p>
