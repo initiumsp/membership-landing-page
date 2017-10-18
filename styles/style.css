@@ -25,6 +25,12 @@ h4{
   font-family: Helvetica Neue, Arial, PingFang TC, Hiragino Sans GB, Microsoft Yahei, sans-serif;
   font-weight: bold;
 }
+a {
+  text-decoration: none;
+}
+ul, li {
+  list-style: none;
+}
 .caption{
   font-weight: 400;
   font-family: Hoefler Text, Songti TC, serif;
@@ -227,9 +233,6 @@ hr{
   line-height: 2em;
   padding: 0;
 }
-.description {
-  list-style: none;
-}
 .description li:before {
   content: "";
   position: relative;
@@ -275,6 +278,13 @@ hr{
 .yearly {
   margin-left: 20px;
 }
+/*.premier .bold {
+  border-color: transparent;
+}*/
+.line_through {
+  text-decoration: line-through;
+  color: yellow;
+}
 .column-container .subscribe {
   width: 90px;
 }
@@ -301,6 +311,53 @@ a.subscribe:focus {
   padding: 60px 20%;
 }
 
+.album {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.album-item {
+      -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -ms-flex-preferred-size: calc(24.975% - 16.5px);
+    flex-basis: calc(24.975% - 16.5px);
+    max-width: calc(24.975% - 16.5px);
+    width: calc(24.975% - 16.5px);
+}
+
+.album-item:nth-child(1n) {
+    margin-right: 22px;
+    margin-left: 0;
+}
+
+.album-item:nth-child(4n) {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.item-cover:after {
+    content: "";
+    display: block;
+    padding-bottom: 60%;
+}
+
+.item-cover {
+  margin-bottom: 10px;
+  position: relative;
+  width: 100%;
+      background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+.item-name {
+  color: #9B9B9B;
+}
 .testimonial{
   margin: 80px auto 0 auto;
   background-color: #F7F7F7;
@@ -476,10 +533,20 @@ a.subscribe:focus {
   }
   .awards {
     font-size: 0.9em;
-    line-height: 2;
     width: 100%;
     padding: 30px 40px;
     box-sizing: border-box;
+  }
+  .album-item {
+    flex-basis: calc(49.95% - 11px);
+    max-width: calc(49.95% - 11px);
+    width: calc(49.95% - 11px);
+    margin-bottom: 10px;
+    font-size: 0.8em;
+  }
+  .album-item:nth-child(2n) {
+    margin-right: 0;
+    margin-left: auto;
   }
   .ball1{
     width:220px;
