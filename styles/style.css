@@ -33,7 +33,7 @@ h4{
   color: #838383;
   line-height: 1.882
 }
-img {
+.testimonial img {
 	max-width: 100%;
 }
 hr{
@@ -160,7 +160,7 @@ hr{
 }
 
 .plansrow{
-  margin: 60px auto 20px auto;
+  margin: 20px auto 20px auto;
   width: 100%;
   display: -webkit-flex; /* Safari */
   display: flex;
@@ -216,6 +216,12 @@ hr{
 	height: auto; 
   width: 100%;
 	/*margin: 20px auto; */
+}
+.illustration.mobile {
+  display: none;
+}
+.illustration img {
+  width: 100%;
 }
 .description{
   line-height: 2em;
@@ -422,7 +428,7 @@ a.subscribe:focus {
     line-height: 2em;
   }
   .plansrow{
-    margin: -100px auto 50px auto;
+    margin: 0px auto 50px auto;
     flex-direction: column;
   }
   .description{
@@ -442,6 +448,12 @@ a.subscribe:focus {
   .illustration{
     width: 100%;
     height: auto;
+  }
+  .illustration.desk {
+    display: none;
+  }
+  .illustration.mobile {
+    display: block;
   }
   .testimonial{
     padding: 30px 40px;
