@@ -443,6 +443,10 @@ a.subscribe:focus {
   box-sizing: border-box;
 }
 
+.form {
+  color: #2BB6C9;
+}
+
 @media screen and (max-width: 620px){
   h1{
     margin-bottom: 20px;
